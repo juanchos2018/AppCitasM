@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.RegistrarEspecialidad"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Reservar Cita"
+            android:textColor="@color/colorgrizclaro"
+            android:textSize="30sp"
+            app:fontFamily="@font/acme" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:paddingTop="0dp"
+            android:paddingRight="19dp"
+            android:paddingBottom="19dp"
+            app:srcCompat="@drawable/panel" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/imvdoctor"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:paddingTop="0dp"
+            android:paddingRight="19dp"
+            android:paddingBottom="19dp"
+            app:srcCompat="@drawable/lovely_time" />
+
+        <TextView
+            android:id="@+id/txtnombreDoc"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Nombre Doctor"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorgrizclaro"
+            android:textSize="30sp"
+            app:fontFamily="@font/acme" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccion Fecha de Reserva" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:orientation="vertical"
+        android:paddingTop="17dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:id="@+id/imvcalendario"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:paddingTop="0dp"
+                android:paddingRight="19dp"
+                android:paddingBottom="19dp"
+                app:srcCompat="@drawable/calendar" />
+
+            <TextView
+                android:id="@+id/txtfechadereserva"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingTop="10dp"
+                android:text="Seleccion la Fecha"
+                android:textColor="@color/colorgrizclaro"
+                android:textSize="20sp"
+                app:fontFamily="@font/acme" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RadioButton" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="H1: 8:00-9:00"
+
+                app:startIconDrawable="@drawable/codigo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editcodigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="H2: 9:00-10:00"
+
+            app:startIconDrawable="@drawable/codigo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editcodigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="H3: 10:00-11:00"
+
+            app:startIconDrawable="@drawable/codigo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editcodigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="H3: 101:00-12:00"
+
+            app:startIconDrawable="@drawable/codigo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editcodigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnguardarcita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlack"
+        android:text="Reservar Cita"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/idEDITARAREA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:text="Cancelar"
+        android:textColor="@color/colorgrizclaro" />
+
+</LinearLayout>

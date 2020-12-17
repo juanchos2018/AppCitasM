@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AppV4</string>
+
+
+    //Login
+    <string name="login">Login</string>
+    <string name="titulologin">Login AppCM</string>
+    <string name="Remember">Recordar Contraseña</string>
+    <string name="lema">REGISTRARSE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Navigation_drawer_ddddd">Abrir navegacion drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigacion drawer</string>
+
+    <string name="textoinformacion">Somos una empresa de desarrolladores de aplicativos moviles, buscamos crecer, y dar soluciones ante
+    problemas de la sociedad, esta aplicacion fue creada pensando en la pandemia  Covid-19, que causa miedo a todos los pobladores del mundo
+    gracias a esta aplicacion se protegen de manera que no puedan juntarse y causar aglomeracion de personas.</string>
+
+    <string-array name="Especialidades">
+        <item>Odontologia</item>
+        <item>General</item>
+        <item>Pediatra</item>
+
+    </string-array>
+</resources>

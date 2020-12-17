@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_launcher_background"
+            android:padding="15dp"
+            android:id="@+id/imageView"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView"
+            android:id="@+id/user_name"
+            android:text="username"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_below="@+id/user_name"
+            android:layout_marginLeft="20dp"
+            android:text="230 Followers"
+            android:id="@+id/user_followers"
+            android:fontFamily="sans-serif"/>
+        <Button
+            android:layout_width="100dp"
+            android:text="Follow"
+            android:textAllCaps="false"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/follow_back_btn"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

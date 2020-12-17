@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "969126408082",
+    "firebase_url": "https://medicu2-default-rtdb.firebaseio.com",
+    "project_id": "medicu2",
+    "storage_bucket": "medicu2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969126408082:android:3c7dbf88ba3dffb5a45b4b",
+        "android_client_info": {
+          "package_name": "com.example.appv4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969126408082-g40c034iqammh4hu8ktcha629mqmf6bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9pVhtybFvfUv39wk-VR46qttkUa3Ro0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969126408082-g40c034iqammh4hu8ktcha629mqmf6bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

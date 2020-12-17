@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/colofondo"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/panel2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido Paciente"
+        android:textSize="23sp"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/arima_madurai_medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jhon Peter Aguilar Atencio"
+        android:textSize="15sp"
+        android:textColor="@color/colorgrizclaro"
+        android:fontFamily="@font/arima_madurai_light"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DNI: 739929771"
+        android:textSize="10sp"
+        android:textColor="@color/colorgrizclaro"
+        android:fontFamily="@font/arima_madurai_light"/>
+</LinearLayout>

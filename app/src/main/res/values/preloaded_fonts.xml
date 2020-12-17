@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/archivo_narrow_bold</item>
+        <item>@font/arima_madurai_light</item>
+        <item>@font/arima_madurai_medium</item>
+        <item>@font/arimo_bold</item>
+        <item>@font/muli_light_italic</item>
+    </array>
+</resources>

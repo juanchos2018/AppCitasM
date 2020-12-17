@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:padding="0dp"
+        android:text="@string/titulologin"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/slogan_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arima_madurai_light"
+        android:text="Sign in to continue"
+        android:textAlignment="center"
+        android:textColor="@color/colorgrizclaro"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imvAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/panel" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="Username"
+                android:padding="2dp"
+                app:boxStrokeColor="@color/colorBlack"
+                app:hintTextAppearance="@style/hintTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editusuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_light_italic"
+                    android:inputType="text"
+                    android:text="risthertm@gmail.com"
+                    android:textColor="@color/colorBlack" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="Password"
+                android:padding="2dp"
+
+                app:boxStrokeColor="@color/colorBlack"
+                app:hintTextAppearance="@style/hintTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editclave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/muli_light_italic"
+                    android:inputType="textPassword"
+                    android:text="7777777"
+                    android:textColor="@color/colorBlack" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/idRESTABLECER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="#00000000"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:text="¿Olvide tu Contraseña?" />
+            <Button
+                android:id="@+id/btnREscpecialidades"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingresar"
+                android:background="@color/colorBlack"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/idREGISTRAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="#00000000"
+                android:fontFamily="@font/arima_madurai_medium"
+                android:text="Registrarse" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

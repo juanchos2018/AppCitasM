@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idNAV_HOME"
+            android:title="Home"/>
+        <item android:id="@+id/idNAV_HOME1"
+            android:title="Perfil"/>
+        <item android:id="@+id/idNAV_HOME2"
+            android:title="Informacion de Atencion"/>
+        <item android:id="@+id/idNAV_HOME3"
+            android:title="Reservar Cita"/>
+        <item android:id="@+id/idNAV_HOME4"
+            android:title="Anular Cita"/>
+        <item android:id="@+id/idNAV_HOME5"
+            android:title="Citas Pendientes"/>
+        <item android:id="@+id/idNAV_HOME6"
+            android:title="Historial"/>
+    </group>
+    <item android:title="Comunicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/idNAV_INFORMACION"
+                    android:title="Informacion de la App"/>
+                <item android:id="@+id/NAV_CERRARS"
+                    android:title="Cerrar Sesion"/>
+                <item android:id="@+id/NAV_CERRA"
+                    android:title="Cerrar Sesion"/>
+                <item android:id="@+id/NAV_CERR"
+                    android:title="Cerrar Sesion"/>
+                <item android:id="@+id/NAV_CER"
+                    android:title="Cerrar Sesion"/>
+                <item android:id="@+id/NAV_C"
+                    android:title="Cerrar Sesion"/>
+            </group>
+        </menu>
+    </item>
+</menu>
